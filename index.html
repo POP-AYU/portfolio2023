@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- BOOTSTRAP 4 CSS樣式 -->
+    <link rel="stylesheet" href="./css/bootstrap-4.0.0.css">
+    <!-- BOOTSTRAP 5 ICON CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- FONT AWESOME ICON CDN -->
+    <!-- <link rel="stylesheet" href="./fontawesome-free-5.7.2-web/css/all.css"> 版本新舊，會影響下載的icon能不能顯示要到fontawesome官網去下載更新解壓縮後放到專案資料夾內-->
+    <!-- 自己寫的CSS要寫在最後行 -->
+    <style>
+        
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        i {
+            color: rgb(255, 255, 255);
+            margin-right: 50px;
+            font-size: 4rem;
+        }
+
+        /* 文字背景區 */
+        .col {
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 70px;
+            padding: 50px;
+        }
+        #home{
+            background-image: url("./images/p1.jpg");
+            margin-top: 77px;
+            /* background-attachment:fixed;  */
+            width:150%;
+            height:100%;
+            background-repeat:no-repeat;
+            /* border:1px #070707 solid; */
+            background-size:45%;   
+            background-position: center;
+        }
+        #p1{
+            background-image: url("./images/p2.jpg");
+            width:150%;
+            height:100%;
+            background-repeat:no-repeat;
+            background-size:30%;
+            background-position: center;
+        }
+        #p2{
+            background-image: url("./images/p3.jpg");
+            width:150%;
+            height:100%;
+            background-repeat:no-repeat;
+            background-size:30%;
+            background-position: center;
+        }
+        #p3{
+            background-image: url("./images/p4.jpg");
+            width:150%;
+            height:100%;
+            background-repeat:no-repeat;
+            background-size:55%;
+            background-position: center;
+        }
+        #about{
+            background-image: url("./images/p5.jpg");
+            width:150%;
+            height:100%;
+            background-repeat:no-repeat;
+            background-size:30%;
+            background-position: center;
+        }
+        #service{
+            background-image: url("./images/p6.jpg");
+            width:150%;
+            height:100%;
+            background-repeat:no-repeat;
+            background-size:55%;
+            background-position: center;
+        }
+        #contact{
+            background-image: url("./images/p7.png");
+            width:150%;
+            height:100%;
+            background-repeat:no-repeat;
+            background-size:55%;
+            background-position: center;
+        }
+        /* 將視窗的寬高設定為100% */
+        html,body{
+            width:100%;
+            height: 100%;
+        }
+        /* 各區共同背景相關設定 */
+        section{
+            /* 只設定區域背景圖片 */
+            background-attachment:fixed;
+            /* margin: auto; */
+            /* background-size: cover; */
+            /* background-position: bottom center; */
+            /* padding-top: 150px; */
+        }
+        /* 隱藏各區標題css指令 */
+        .container{
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#"><img src="./images/logo1-1.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link js-scroll-trigger" href="#home">插圖 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#p1">海報1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#p2">海報2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#p3">海報3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">海報4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#service">banner</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">名片</a>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </nav>
+    <!-- 選單各區 -->
+    <!-- HOME -->
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><i class="bi bi-house"></i>插圖</h1>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat asperiores consequuntur magnam id
+                        qui temporibus blanditiis molestias hic perferendis laborum.</P>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- 作品集1 -->
+    <section id="p1">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><i class="bi bi-book"></i>海報1</h1>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat asperiores consequuntur magnam id
+                        qui temporibus blanditiis molestias hic perferendis laborum.</P>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- 作品集2 -->
+    <section id="p2">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><i class="bi bi-book"></i>海報2</h1>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat asperiores consequuntur magnam id
+                        qui temporibus blanditiis molestias hic perferendis laborum.</P>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- 作品集3 -->
+    <section id="p3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><i class="bi bi-book"></i>海報3</h1>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat asperiores consequuntur magnam id
+                        qui temporibus blanditiis molestias hic perferendis laborum.</P>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- 關於我 -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><i class="bi bi-person"></i>海報4</h1>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat asperiores consequuntur magnam id
+                        qui temporibus blanditiis molestias hic perferendis laborum.</P>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- 服務項目 -->
+    <section id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><i class="bi bi-ui-checks"></i>banner</h1>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat asperiores consequuntur magnam id
+                        qui temporibus blanditiis molestias hic perferendis laborum.</P>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- 聯絡方式 -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><i class="bi bi-chat-right-text"></i>名片</h1>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat asperiores consequuntur magnam id
+                        qui temporibus blanditiis molestias hic perferendis laborum.</P>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+<!-- JS -->
+<!-- jQuery主程式 不可變動-->
+<script src="./js/jquery-3.2.1.min.js"></script>
+<!-- 捲動主程式 順序可與以下調換-->
+<script src="./js/freelancer.min.js"></script>
+<!-- 轉場主程式 順序可與上調換-->
+<script src="./js/jquery.easing.min.js"></script>
+<!-- BOOTSTRAP 主程式畫面縮小的導覽列選單點選 -->
+<script src="./js/bootstrap-4.0.0.js"></script>
+<script src="./js/popper.min.js"></script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
